@@ -5,7 +5,7 @@ h1{
   font-family: 'Bebas Neue'; 
   font-size: 250%; 
   text-align: justify left;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 400;
 }
 
@@ -23,7 +23,7 @@ header{
   left: 0%;
   width: 100%;
   height: 80px;
-  background: linear-gradient(to top right, rgb(41, 114, 250), rgb(234, 8, 255));
+  background: linear-gradient(to top right, rgb(95, 0, 107), rgb(53, 90, 255));
   box-shadow: 0 4px 30px -1px rgb(0, 47, 255);
   z-index: 2;
 }
@@ -86,10 +86,10 @@ header{
 
 .checkbtn{
   font-size: 20px;
-  color: #000000;
+  color: #ffffff;
   float: right;
   line-height: 80px;
-  margin-right: 40px;
+  margin-right: 20px;
   cursor: pointer;
   display: none;
 }
@@ -312,7 +312,7 @@ footer .redes-footer .fa-instagram:hover{
 
 
 /* Responsive Design*/
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 1024px){
 
 .header-content,
 .container-footer footer{
@@ -355,7 +355,7 @@ section article .button{
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
 section{
   padding: 0px; 
   width: 100%;
@@ -427,12 +427,12 @@ section article .button{
   position: fixed;
   width: 60%;
   height: 100vh;
-  background: linear-gradient(to top right, rgba(41, 114, 250, 0.700), rgb(234, 8, 255, 0.700));
+  background: rgb(0, 0, 0);
   top: 80px;
   left: -100%;
-  box-shadow: 10px 0 20px -25px black;
+  box-shadow: 10px 0 20px -10px rgb(180, 180, 180);
   text-align: center;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
   
 .menu nav ul{
@@ -447,17 +447,17 @@ section article .button{
 
 .menu nav ul li a{
   margin-top: 80px;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
   margin-bottom: 40px;
-  font-weight: 800;
+  font-weight: 200;
 }
 
 .menu nav ul li a i{
   width: 20px;
   display: inline-block;
   margin-right: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(252, 252, 252);
 }
 
 .menu li a:hover, li a.active{

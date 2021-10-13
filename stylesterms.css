@@ -6,7 +6,7 @@ h1{
   font-family: 'Bebas Neue'; 
   font-size: 250%; 
   text-align: justify left;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 400;
 }
 
@@ -25,7 +25,7 @@ header{
     left: 0%;
     width: 100%;
     height: 80px;
-    background: linear-gradient(to top right, rgb(41, 114, 250), rgb(234, 8, 255));
+    background: linear-gradient(to top right, rgb(95, 0, 107), rgb(53, 90, 255));
     box-shadow: 0 4px 30px -1px rgb(0, 47, 255);
     z-index: 2;
 }
@@ -99,10 +99,10 @@ header{
 
 .checkbtn{
   font-size: 20px;
-  color: #000000;
+  color: #ffffff;
   float: right;
   line-height: 80px;
-  margin-right: 40px;
+  margin-right: 20px;
   cursor: pointer;
   display: none;
 }
